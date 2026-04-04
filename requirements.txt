@@ -1,12 +1,34 @@
+# requirements.txt - Nigeria Farm Climate-RL
+# Author: Ayomide Agbaje | ALU Machine Learning Techniques II
+# Install: pip install -r requirements.txt
+
+# Core RL Framework
 stable-baselines3>=2.0.0
+stable-baselines3[extra]>=2.0.0
+
+# Gymnasium (OpenAI Gym successor)
 gymnasium>=0.29.0
+
+# Deep Learning
 torch>=2.0.0
+torchvision>=0.15.0
+
+# Scientific Computing
 numpy>=1.24.0
 scipy>=1.10.0
 pandas>=2.0.0
+
+# Visualization
 matplotlib>=3.7.0
 seaborn>=0.12.0
 pygame>=2.4.0
+
+# Utilities
 tqdm>=4.65.0
 tensorboard>=2.13.0
 cloudpickle>=2.2.0
+opencv-python>=4.7.0
+
+# Optional - for advanced features
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.8
