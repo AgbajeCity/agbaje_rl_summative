@@ -1,6 +1,5 @@
 # Nigeria Farm Climate-RL
-
-## Mission-Based Reinforcement Learning for Agricultural Climate Resilience
+## Reinforcement Learning for Agricultural Climate Resilience
 
 ---
 
