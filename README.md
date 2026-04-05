@@ -1,19 +1,16 @@
-# agbaje_rl_summative - Nigeria Farm Climate-RL
+# Nigeria Farm Climate-RL
 
 ## Mission-Based Reinforcement Learning for Agricultural Climate Resilience
 
-**Author:** Ayomide Agbaje | **Institution:** African Leadership University (ALU)  
-**Course:** Machine Learning Techniques II | **Type:** Mission-Based RL Summative
-
 ---
 
-## 🌍 Mission Statement
+## Mission Statement
 
 Tackle the threat of climate change to African food systems by engineering predictive intelligence tools, hyperlocal weather insights and early warning systems, using data science and machine learning skills to build digital defences that prevent crop losses and protect low-income smallholder farmers across Nigeria's vulnerable, underserved rural communities from climate-related shocks.
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 agbaje_rl_summative/
@@ -34,7 +31,7 @@ agbaje_rl_summative/
 
 ---
 
-## 🌾 Environment: NigeriaFarmEnv
+## Environment: NigeriaFarmEnv
 
 ### Observation Space (16 features)
 | # | Feature | Range | Description |
@@ -80,7 +77,7 @@ agbaje_rl_summative/
 
 ---
 
-## 📊 Training Results
+## Training Results
 
 ### DQN Results (Value-Based, 10 Configurations)
 | Config | LR | Gamma | Batch | Explore | Mean Reward | Std |
@@ -135,7 +132,7 @@ agbaje_rl_summative/
 
 ---
 
-## 🔬 Algorithm Comparison
+## Algorithm Comparison
 
 | Algorithm | Best Config | Mean Reward | Std | Stability |
 |-----------|-------------|-------------|-----|-----------|
@@ -145,15 +142,15 @@ agbaje_rl_summative/
 | A2C | TBD | TBD | TBD | TBD |
 
 **Key Findings:**
-- DQN achieves highest mean reward (348.12) but with high variance
+- DQN achieves the highest mean reward (348.12), but with high variance
 - PPO shows best stability (lowest std relative to mean)
-- REINFORCE has highest variance due to Monte Carlo nature
+- REINFORCE has the highest variance due to its Monte Carlo nature
 - Small batch size + higher exploration benefits DQN significantly
 - Low learning rate (0.0001) helps PPO converge stably
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Install dependencies
@@ -177,9 +174,9 @@ python main.py --json-api
 
 ---
 
-## 🌐 API Integration
+## API Integration
 
-The environment supports JSON serialization for web/mobile integration:
+The environment supports JSON serialisation for web/mobile integration:
 
 ```python
 env = NigeriaFarmEnv(zone='savanna')
@@ -188,12 +185,12 @@ state_json = env.to_json()
 ```
 
 **Integration targets:**
-- 🌐 **Web**: React/Vue.js + D3.js for real-time farm visualization
-- 📱 **Mobile**: Flutter/React Native with JSON state parsing
-- ⚡ **Real-time**: WebSocket for live agent updates
+-  **Web**: React/Vue.js + D3.js for real-time farm visualization
+-  **Mobile**: Flutter/React Native with JSON state parsing
+-  **Real-time**: WebSocket for live agent updates
 
 ---
 
-## 📄 License
+##  License
 
-MIT License | Ayomide Agbaje | ALU 2025
+MIT License | Ayomide Agbaje | 2025
