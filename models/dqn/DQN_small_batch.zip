@@ -1,0 +1,19 @@
+{
+  "algorithm": "DQN",
+  "mean_reward": 348.12,
+  "rank": 1,
+  "hyperparameters": {
+    "name": "DQN_small_batch.zip",
+    "algo": "DQN",
+    "reward": 348.12,
+    "rank": 1,
+    "lr": 0.001,
+    "batch": 32,
+    "explore": 0.4
+  },
+  "environment": "NigeriaFarmEnv-v0",
+  "framework": "stable-baselines3>=2.0.0",
+  "description": "Best performing DQN model for Nigeria Farm Climate-RL",
+  "github": "https://github.com/AgbajeCity/agbaje_rl_summative",
+  "note": "To regenerate: python training/dqn_training.py"
+}

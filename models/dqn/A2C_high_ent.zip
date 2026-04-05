@@ -1,0 +1,18 @@
+{
+  "algorithm": "A2C",
+  "mean_reward": 161.57,
+  "rank": 4,
+  "hyperparameters": {
+    "name": "A2C_high_ent.zip",
+    "algo": "A2C",
+    "reward": 161.57,
+    "rank": 4,
+    "lr": 0.0007,
+    "ent_coef": 0.01
+  },
+  "environment": "NigeriaFarmEnv-v0",
+  "framework": "stable-baselines3>=2.0.0",
+  "description": "Best performing A2C model for Nigeria Farm Climate-RL",
+  "github": "https://github.com/AgbajeCity/agbaje_rl_summative",
+  "note": "To regenerate: python training/a2c_training.py"
+}
